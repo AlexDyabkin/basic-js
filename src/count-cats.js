@@ -1,4 +1,4 @@
-module.exports = function countCats(/* matrix */) {
+module.exports = function countCats(backyard ) {
   var b = backyard.flat(Infinity);
   var count = 0;
   if(b.length === 0){

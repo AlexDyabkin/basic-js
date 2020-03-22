@@ -1,4 +1,4 @@
-module.exports = function transform(/* arr */) {
+module.exports = function transform(arr) {
     if (!Array.isArray(arr)) {
         throw Error;
     }
